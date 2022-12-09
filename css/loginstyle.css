@@ -1,0 +1,61 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family:sans-serif ;
+    background: url(https://scontent.ftun4-2.fna.fbcdn.net/v/t1.15752-9/275183301_1087738048468484_6738955232010661145_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=ae9488&_nc_ohc=X1nUZ419mZoAX_0W7er&tn=RfDZJCii-dW0KqP4&_nc_ht=scontent.ftun4-2.fna&oh=03_AdSKcKWm-8CxDyTfvKZ91Pqvmkk8qor9EiAuqTDmNIkUYw&oe=63B9D463);
+    background-size: cover;
+    font-family: 'ABeeZee', sans-serif;
+
+}
+.box{
+    width: 300px;
+    padding: 30px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background: whitesmoke;
+    text-align: center;
+    opacity: 90%;
+}
+.box h1 {
+    color:rgb(22, 22, 183);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.box input[type="text"],.box input[type='password']{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border:3px solid blue ;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color:blue ;
+    border-radius: 24px;
+    transition: 0.25px;
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+    width: 270px;
+    border-color: orange;
+}
+.box input [type="sumbit"]{
+
+    border:0;
+    background: none;
+    display: block;
+    margin:20px auto ;
+    text-align: center;
+    border:3px solid orange ;
+    padding:14px 10px ;
+    outline: none;
+    color:blue;
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor: pointer;
+}
+.box input[type ="sumbit"]:hover {
+    background: orange;
+}
